@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>(De)codificador de mensagens</title>
+</head>
+
+<body>
+    <header><h1>(De)codificador de mensagens</h1></header>
+    <main>
+        <div class=caixa>
+            <img id="jogo" src="198128.jpg">
+
+            <form class=container>
+               <label for="message">Mensagem:</label>
+                   <input type="text" id="message" placeholder="Mensagem">
+                   
+                <legend>Escolha o método:</legend>
+
+                   <div>
+                    <input type ="checkbox" id = "cifracesar" name = "Cifra de César">
+                    <label for = "coding"> Cifra de César </label>
+                   </div>
+                   
+                   <div>
+                    <input type = "checkbox" id = "base64" name ="base 64">
+                    <label for = "base"> Base 64 </label>
+                  </div>
+                  
+                  <div class="button">
+                    <div>
+                        <input type="radio" id ="codificar">
+                        <label for=codificar> Codificar </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" id ="decodificar">
+                        <label for=decodificar> Decodificar </label>
+                    </div>
+                    
+                  <div>
+                  
+            </form>
+        </div>
+        
+    </main>
+    <footer></footer>
+    <script src="mensagem.js"></script>
+</body>
+</html>
