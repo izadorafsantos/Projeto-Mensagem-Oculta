@@ -1,76 +1,110 @@
-body{
-    background: black;
-}
-
-header {
-    color: rgb(241, 79, 79);
-    font-family: Verdana, Tahoma, sans-serif;
-    font-size: 50px;
-    font-weight: 700;
-    text-align: center;
-    padding: 50px;
-}
-
-.caixa{
-    width: 96vw;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-   
-}
-
-#jogo {
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-    margin: 35px auto;
-    
+body {
+    background-image: url(cod.gif);
+    background-size: cover;
 }
 
 .container {
-    border:rgb(241, 79, 79) solid;
-    border-radius: 10px;
-    color: rgb(241, 79, 79);
     display: flex;
+    border-radius: 8px;
+    background-color: black;
+    margin: 80px auto;
+    border: 5px solid rgb(70, 141, 235);
+    border-style: double;
+    color: rgb(255, 255, 255);
     flex-direction: column;
-    font-family: Verdana, Tahoma, sans-serif;
-    font-size: 15px;
-    height: 60%;
-    width:30%;
-    align-items: left;
-    margin: 40px auto;
-    padding: 30px;
-    justify-content:center;
+    height: 60vh;
+    padding: 20px;
+    width: 30%;
 }
 
-.container label {
-    margin-bottom: 10px;
+#titulo{
+    color: rgb(70, 141, 235);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 30px;
+    text-align: center;
+}
+
+#formulario{
+    align-items: left;
+    color: rgb(70, 141, 235);
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia, Times, serif;
+    font-size: 18px;
+}
+
+#messagetext, #incremento{
+   margin-left: 10px;
+}
+
+#incremento{
+    flex-direction: row;
+    margin: 10px;
 }
 
 #message{
-    background-color: #f1a1a1;
+    background-color:rgb(133, 174, 228);
+    margin: 10px;
     border-radius: 5px;
-    border: 1px solid #ffffff;
-    width: 100%;
-    height: 30px;
-    border: 0 none;
-    outline: 0
-}  
-
-input:focus{
-    outline: 0;
-    background-color: rgb(236, 161, 161);
+    outline: none;
+    text-align: left;
 }
 
-legend {
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-.button{
-    display: flex;
-    flex-direction: row;
+select, #numIncremento{
     margin-left: 10px;
-    margin-top: 20px;
-    justify-content: space-around;
+    background-color: rgb(133, 174, 228);
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+}
+
+#numIncremento{
+    width: 10%;
+}
+
+.caixa1{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;   
+}
+
+.caixa3 span{
+    margin-top: 0px;
+    margin-left: 80px;
+}
+
+/*#codificar, #decodificar:checked{
+    background-color: rgb(147, 185, 235)l;
+    transform: scale(1.50);
+
+}*/
+
+.caixa4{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+button{
+    background: rgb(70, 141, 235);
+    border-radius: 5px;
+    border: none;
+    font-family: Georgia, Times, serif;
+    font-size: 18px;
+    height: 35px;
+}
+
+button:hover{
+    transform: scale(1.05);
+    background:rgb(14, 72, 148);
+
+}
+
+#response{
+    background-color:rgb(133, 174, 228);
+    margin: 20px 10px;
+    border-radius: 5px;
+    outline: none;
+    width: 95%
 }

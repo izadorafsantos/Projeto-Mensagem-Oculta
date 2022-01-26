@@ -8,49 +8,61 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
 
-    <title>(De)codificador de mensagens</title>
+    <title>{De}codificador de mensagem</title>
 </head>
 
 <body>
-    <header><h1>(De)codificador de mensagens</h1></header>
-    <main>
-        <div class=caixa>
-            <img id="jogo" src="198128.jpg">
+    <div class=container>
+            <h1 id=titulo>{De}codificador de mensagem</h1>
 
-            <form class=container>
-               <label for="message">Mensagem:</label>
-                   <input type="text" id="message" placeholder="Mensagem">
+            <div>
+                <form id=formulario>
+             
+                     <label for="message" id="messagetext">Mensagem:</label>
+                     <textarea type="text" id="message" placeholder="Digite sua mensagem" cols="18" rows="3"></textarea>
                    
-                <legend>Escolha o método:</legend>
+                    <div class=caixa1>
+                         <p>Escolha o método:</p>
 
-                   <div>
-                    <input type ="checkbox" id = "cifracesar" name = "Cifra de César">
-                    <label for = "coding"> Cifra de César </label>
-                   </div>
-                   
-                   <div>
-                    <input type = "checkbox" id = "base64" name ="base 64">
-                    <label for = "base"> Base 64 </label>
-                  </div>
-                  
-                  <div class="button">
-                    <div>
-                        <input type="radio" id ="codificar">
-                        <label for=codificar> Codificar </label>
+                         <select id="selecione" required>
+                             <option disabled selected></option>
+                             <option value="cifra">Cifra De César</option>
+                             <option value="base">Base 64</option>
+                         </select>
                     </div>
+            
+                    <div id="incremento" style='display:none'>
+                        <label for="incCifra"> Incremento da cifra:<input type="number" name ="" id="incremento" value="3" min="0" />
+                        </label>
+                      </div>
+
+                      <div class="caixa3">
+                          <span>
+                              <input type="radio" id ="codificar">
+                              <label for=codificar > Codificar </label>
+                          </span>
                     
-                    <div>
-                        <input type="radio" id ="decodificar">
-                        <label for=decodificar> Decodificar </label>
-                    </div>
-                    
-                  <div>
-                  
-            </form>
+                           <span>
+                              <input type="radio" id ="decodificar">
+                              <label for=decodificar> Decodificar </label>
+                           </span>
+                      <div>
+               </form>
+
+               <div class=caixa4>
+                   <button>Escolha</button>
+               </div>
+
+               <div>
+                 <label for="respCod"></label>
+                 <textarea name="response" id="response" placeholder="Mensagem gerada" cols="18" rows="3"></textarea>
+               </div>
+
+
+               
+            </div>
         </div>
-        
-    </main>
-    <footer></footer>
-    <script src="mensagem.js"></script>
+    
+    <script src="index.js"></script>
 </body>
 </html>
