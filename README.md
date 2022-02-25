@@ -1,6 +1,6 @@
-# Projeto Mensagem oculta
+# Projeto Mensagem oculta :lock_with_ink_pen:
 
-## Descrição:
+## :star: Descrição:
 
 O intuido do projeto foi desenvolver uma aplicação capaz de codificar e decodificar mensagens utilizando a Cifra de César e a Base64.
 Os requisitos para o projeto são:
@@ -11,13 +11,13 @@ fornecer o incremento utilizado na cifra;
 - Um botão que, com "codificar" selecionado exibe o texto "Codificar Mensagem!" e com "decodificar" selecionado exibe "Decodificar Mensagem!";
 - Um outro campo textual deve ser utilizado na página para que o resultado da codificação e decodificação possa ser exibido para a pessoa usuária.
 
-## Tecnologias utilizadas
+## :star: Tecnologias utilizadas
 - HTML
 - CSS
 - JavaScript
 
-## Status: 
+## :star: Status: 
 Em andamento
-
-## Autoria:
+ 
+##  :star: Autoria:
 Desenvolvido por: [Izadora Ferreira](https://www.linkedin.com/in/izadora-ferreira-dos-santos-0504b2177/)
