@@ -11,13 +11,13 @@ fornecer o incremento utilizado na cifra;
 - Um botão que, com "codificar" selecionado exibe o texto "Codificar Mensagem!" e com "decodificar" selecionado exibe "Decodificar Mensagem!";
 - Um outro campo textual deve ser utilizado na página para que o resultado da codificação e decodificação possa ser exibido para a pessoa usuária.
 
-:star: ## Tecnologias utilizadas
+## :star: Tecnologias utilizadas
 - HTML
 - CSS
 - JavaScript
 
-:star: ## Status: 
+## :star: Status: 
 Em andamento
-
-:star: ## Autoria:
+ 
+##  :star: Autoria:
 Desenvolvido por: [Izadora Ferreira](https://www.linkedin.com/in/izadora-ferreira-dos-santos-0504b2177/)
