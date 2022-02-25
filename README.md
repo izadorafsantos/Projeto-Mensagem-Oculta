@@ -1,6 +1,6 @@
 # Projeto Mensagem oculta :lock_with_ink_pen:
 
-:star: ## Descrição:
+## :star: Descrição:
 
 O intuido do projeto foi desenvolver uma aplicação capaz de codificar e decodificar mensagens utilizando a Cifra de César e a Base64.
 Os requisitos para o projeto são:
