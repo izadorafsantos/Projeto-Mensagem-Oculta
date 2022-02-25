@@ -23,6 +23,6 @@ Em andamento
 Desenvolvido por: [Izadora Ferreira](https://www.linkedin.com/in/izadora-ferreira-dos-santos-0504b2177/)
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/92602538/155745891-612fc13d-6f2b-4b9a-a874-448391c5457c.gif" />
+  <img src="https://user-images.githubusercontent.com/92602538/155747174-80a9fee7-cc25-4d55-a71d-6d99af7f5967.gif" />
 </p>
 
