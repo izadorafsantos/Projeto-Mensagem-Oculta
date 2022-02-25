@@ -5,17 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
 
     <title>{De}codificador de mensagem</title>
 </head>
 
+<header></header>
+
 <body>
     <div class=container>
             <h1 id=titulo>{De}codificador de mensagem</h1>
-
-            <div>
+        
                 <form id=formulario>
              
                      <label for="message" id="messagetext">Mensagem:</label>
@@ -31,38 +32,33 @@
                          </select>
                     </div>
             
-                    <div id="incremento" style='display:none'>
-                        <label for="incCifra"> Incremento da cifra:<input type="number" name ="" id="incremento" value="3" min="0" />
+                    <div id="incremento1" style='display:none'>
+                        <label for="incCifra"> Incremento da cifra:<input type="number" name ="" id="incremento2" value="3" min="0" />
                         </label>
                       </div>
 
-                      <div class="caixa3">
+                      <div class="caixa2">
                           <span>
-                              <input type="radio" id ="codificar">
+                              <input type="radio" id ="codificar" name="btn" class="radioBtn">
                               <label for=codificar > Codificar </label>
                           </span>
                     
                            <span>
-                              <input type="radio" id ="decodificar">
+                              <input type="radio" id ="decodificar" name="btn" class="radioBtn">
                               <label for=decodificar> Decodificar </label>
                            </span>
-                      <div>
+                        </div>
+                        
+                        <div class=caixa3>
+                            <button type="submit" id="submit">Codificar</button>
+                        </div>
+         
+                        <div>
+                          <label for="respCod"></label>
+                          <textarea  disabled name="response" id="response" placeholder="Mensagem gerada" cols="18" rows="3"></textarea>
+                        </div> 
                </form>
-
-               <div class=caixa4>
-                   <button>Escolha</button>
-               </div>
-
-               <div>
-                 <label for="respCod"></label>
-                 <textarea name="response" id="response" placeholder="Mensagem gerada" cols="18" rows="3"></textarea>
-               </div>
-
-
-               
-            </div>
         </div>
-    
-    <script src="index.js"></script>
+    <script src="./JS/codifica.js"></script>
 </body>
 </html>

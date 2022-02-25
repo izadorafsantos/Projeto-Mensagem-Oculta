@@ -1,0 +1,120 @@
+header{
+    height: 6rem;
+    background-image: url(../images/tech.jpg);
+    background-size: cover;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border: 5px solid;
+    border-image: linear-gradient(180deg, #3E0988, #e052bd 100%) 1;
+    height: auto;
+    margin: 3% auto 0;
+    overflow: hidden;
+	overflow-wrap: break-word;
+    padding: 1%;
+    width: 30%;
+}
+
+#titulo{
+    font-family: BEBAS;
+    font-size: 40px;
+    padding: 1.4%;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #3E0988, #e052bd);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+}
+
+#formulario, .caixa1, .caixa3 {
+    display: flex;
+}
+
+#formulario{
+    align-items: left;
+    color: #b197d6;
+    flex-direction: column;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+#messagetext, #incremento2, #selecione, #response{
+   margin-left: 2%;
+}
+
+#incremento1, #message, .caixa2, #submit{
+    margin: 2.2%;
+}
+
+#incremento1{
+    flex-direction: row;
+    text-align: center;
+}
+
+#message, #response{
+    outline: none;
+    margin-top: 2.2%;
+    width: 95%;
+}
+
+
+#message, #selecione, #incremento2, #response{
+    background-color: #b197d6;
+}
+
+#selecione, #incremento2{
+    height: 20px;
+    outline: none;
+}
+
+#incremento2{
+    width: 10%;
+}
+
+.caixa1{
+    margin: 2% auto;
+    flex-direction: row;
+    font-size: 16px;
+    width: 60%;  
+}
+
+.caixa2{
+    margin: 2% auto;
+}
+
+#decodificar:checked, 
+#codificar:checked{
+    transform: scale(1.50);
+}
+
+.caixa3, .caixa4{
+    justify-content: center;
+    margin-top: 5%;
+}
+
+
+#submit{
+    background-image: linear-gradient(to bottom, #3E0988, #e052bd);
+    border-radius: 3px;
+    border: none;
+    font-family: Arial;
+    font-size: 16px;
+    height: 35px;
+    color: black;
+    font-weight: bolder;
+}
+
+#submit:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
