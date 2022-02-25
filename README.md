@@ -1,13 +1,13 @@
 # Projeto Mensagem oculta
 
-##Descrição:
+## Descrição:
 
 O intuido do projeto foi desenvolver uma aplicação capaz de codificar e decodificar mensagens utilizando a Cifra de César e a Base64. 
 
-##Tecnologias utilizadas
+## Tecnologias utilizadas
 - HTML
 - CSS
 - JavaScript
 
-##status: 
+## Status: 
 Em andamento
