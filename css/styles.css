@@ -16,15 +16,16 @@ body {
     border: 5px solid;
     border-image: linear-gradient(180deg, #3E0988, #e052bd 100%) 1;
     height: auto;
-    margin: 3% auto 0;
+    margin: 5% auto 0;
     overflow: hidden;
 	overflow-wrap: break-word;
     padding: 1%;
-    width: 30%;
+    width: 36%;
 }
 
 #titulo{
     font-family: BEBAS;
+    margin-bottom: 3%;
     font-size: 40px;
     padding: 1.4%;
     text-align: center;
@@ -35,7 +36,7 @@ body {
     color: black;
 }
 
-#formulario, .caixa1, .caixa3 {
+#formulario, .caixa1, .caixa3, .copyright {
     display: flex;
 }
 
@@ -84,7 +85,8 @@ body {
     margin: 2% auto;
     flex-direction: row;
     font-size: 16px;
-    width: 60%;  
+    width: 100%; 
+    justify-content: center;
 }
 
 .caixa2{
@@ -116,5 +118,77 @@ body {
 #submit:hover{
     transform: scale(1.05);
     cursor: pointer;
+}
+
+.copyright{
+    color: #b197d6;
+    font-family: Arial;
+    font-size: 13px;
+    position:fixed;
+    bottom: 0px;
+    width: 90%;
+    justify-content: center;
+    margin: 0 5%;
+}
+
+/*responsividade*/
+@media screen and (max-width:900px) {
+   .container {
+        width: 44%
+    } 
+    
+    #titulo {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .container {
+        width: 47%
+    }
+
+    #titulo {
+        font-size: 33px;
+    }   
+
+    #formulario, .caixa1, .caixa2, .caixa3, #submit{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .container {
+        width: 50%
+    }
+
+    #titulo {
+        font-size: 31px;
+    }
+
+    #formulario, .caixa1, .caixa2, .caixa3, #submit{
+        font-size: 13px;
+    }
+    
+    #selecione{
+        width: 40%
+    }   
+}
+
+@media screen and (max-width:450px) {
+    .container {
+        width: 60%
+    }
+
+    #titulo {
+        font-size: 29px;
+    }
+
+    #formulario, .caixa1, .caixa2, .caixa3, #submit{
+        font-size: 12px;
+    }
+
+    .copyright{
+        text-align: center;
+    }
 }
 
