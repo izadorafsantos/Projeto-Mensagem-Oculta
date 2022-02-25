@@ -19,4 +19,6 @@ fornecer o incremento utilizado na cifra;
 ## Status: 
 Em andamento
 
+#Autoria:
 Desenvolvido por: [Izadora Ferreira](https://www.linkedin.com/in/izadora-ferreira-dos-santos-0504b2177/)
+
