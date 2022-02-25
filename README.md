@@ -22,5 +22,7 @@ Em andamento
 #Autoria:
 Desenvolvido por: [Izadora Ferreira](https://www.linkedin.com/in/izadora-ferreira-dos-santos-0504b2177/)
 
-![oie_25154741SPO9NFts](https://user-images.githubusercontent.com/92602538/155735466-aa6a5c36-cbde-40c4-8079-f31bc5adc6bf.gif centerme)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/92602538/155735466-aa6a5c36-cbde-40c4-8079-f31bc5adc6bf.gif" />
+</p>
 
